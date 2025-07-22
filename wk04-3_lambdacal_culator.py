@@ -1,11 +1,7 @@
-def add(x,y):
-    return x+y
-def subtract(x,y):
-    return x-y
-def multiply(x,y):
-    return x*y
-def divide(x,y):
-    return(x/y)
+add = lambda x,y: x+y
+subtract = lambda x,y:x-y
+multiply = lambda x,y:x*y
+divide = lambda x,y: x/y
 
 action = int(input("1.add\n2.subtract\n3.multiply\n4.divide\n"))
 no1 = int(input("No.1:"))
